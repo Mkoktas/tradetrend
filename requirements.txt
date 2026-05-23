@@ -1,0 +1,30 @@
+# Data Collection
+pytrends==4.9.2
+beautifulsoup4==4.12.3
+selenium==4.18.1
+webdriver-manager==4.0.1
+requests==2.31.0
+lxml==5.1.0
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.28
+
+# Task Queue & Cache
+celery==5.3.6
+redis==5.0.3
+
+# API
+fastapi==0.110.0
+uvicorn==0.27.1
+pydantic==2.6.3
+
+# Dashboard
+streamlit==1.32.2
+plotly==5.19.0
+pandas==2.2.1
+
+# Utils
+python-dotenv==1.0.1
+schedule==1.2.1
+tenacity==8.2.3

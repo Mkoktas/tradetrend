@@ -1,0 +1,432 @@
+"""
+TradeTrend — Nasıl Çalışır? Bilgilendirme Sayfası
+"""
+
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
+import streamlit as st
+import plotly.graph_objects as go
+
+st.set_page_config(
+    page_title="Nasıl Çalışır? — TradeTrend",
+    page_icon="📖",
+    layout="wide",
+)
+
+st.markdown("""
+<style>
+    .stApp { background-color: #ffffff; }
+    [data-testid="stSidebar"] { background-color: #f5f3ff; }
+    [data-testid="stSidebar"] * { color: #1e1b4b !important; }
+    h1, h2, h3, h4 { color: #1e1b4b !important; }
+    p, li, span { color: #374151 !important; }
+    .info-box {
+        background: #f5f3ff;
+        border-left: 4px solid #7c3aed;
+        border-radius: 0 8px 8px 0;
+        padding: 1rem 1.2rem;
+        margin: 0.8rem 0;
+    }
+    .source-card {
+        background: #ffffff;
+        border: 1px solid #e9d5ff;
+        border-radius: 10px;
+        padding: 1.2rem;
+        height: 100%;
+    }
+    .formula-box {
+        background: #1e1b4b;
+        color: #a78bfa !important;
+        border-radius: 8px;
+        padding: 1rem 1.4rem;
+        font-family: monospace;
+        font-size: 1rem;
+        margin: 0.8rem 0;
+    }
+    .step-number {
+        background: #7c3aed;
+        color: white !important;
+        border-radius: 50%;
+        width: 2rem; height: 2rem;
+        display: inline-flex;
+        align-items: center; justify-content: center;
+        font-weight: 700; font-size: 0.95rem;
+        margin-right: 0.5rem;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+# ─── Başlık ───────────────────────────────────────────────────────────────────
+st.markdown("""
+<div style="background:linear-gradient(135deg,#6366f1,#7c3aed);
+    padding:1.5rem 2rem;border-radius:12px;margin-bottom:2rem;">
+    <h1 style="margin:0;color:white;font-size:1.9rem;">📖 Nasıl Çalışır?</h1>
+    <p style="margin:0.4rem 0 0;color:rgba(255,255,255,0.9);font-size:1rem;">
+        TradeTrend'in arkasındaki veri kaynakları, algoritmalar ve hesaplama mantığı
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+# ─── Genel Bakış ─────────────────────────────────────────────────────────────
+st.markdown("## 🗺️ Büyük Resim")
+st.markdown("""
+TradeTrend, **üç farklı veri kaynağından** her hafta otomatik olarak veri toplayarak
+bunları tek bir **trend skoru** altında birleştirir. Bu skor sayesinde hangi ürünün
+şu an yükselişte olduğunu, nerede satılmasının daha karlı olduğunu ve stok riskinin
+ne kadar yüksek olduğunu anlık olarak görebilirsiniz.
+""")
+
+st.markdown("""
+<div class="info-box">
+<strong>Temel soru:</strong> "Bu ürünü şu an stoklamalı mıyım?" sorusuna üç farklı
+açıdan cevap veriyoruz — insanlar internette ne arıyor, Trendyol'da ne satıyor,
+TikTok'ta ne viral oluyor.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("---")
+
+# ─── 1. VERİ KAYNAKLARI ───────────────────────────────────────────────────────
+st.markdown("## 1️⃣ Veri Kaynakları")
+st.markdown("Sistem her hafta üç platformdan otomatik veri toplar:")
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.markdown("""
+    <div class="source-card">
+    <h3 style="color:#4285f4 !important;">🔵 Google Trends</h3>
+    <p><strong>Ne alıyoruz?</strong></p>
+    <ul>
+        <li>Son 8 haftanın haftalık arama hacmi (0–100 arası skor)</li>
+        <li>Türkiye geneli ve şehir bazlı ilgi dağılımı</li>
+        <li>Aynı anda en fazla 5 ürün kelimesi sorgulanabiliyor</li>
+    </ul>
+    <p><strong>Nasıl kullanıyoruz?</strong></p>
+    <p>Bir ürünün Google'da aranma sıklığı, tüketici niyetinin en saf göstergesidir.
+    "Termos" kelimesi Ekim'de zirve yapıyorsa, insanlar satın almayı düşünüyor demektir.</p>
+    <p><em>Güncelleme: Haftalık · Ücretsiz API</em></p>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col2:
+    st.markdown("""
+    <div class="source-card">
+    <h3 style="color:#f27a1a !important;">🟠 Trendyol</h3>
+    <p><strong>Ne alıyoruz?</strong></p>
+    <ul>
+        <li>"Çok Satanlar" sayfasından ürün sıralamaları</li>
+        <li>Ürün fiyatı, puanı ve yorum sayısı</li>
+        <li>Kategori bazlı en çok satan ilk 72 ürün</li>
+    </ul>
+    <p><strong>Nasıl kullanıyoruz?</strong></p>
+    <p>Trendyol sıralaması gerçek satış verisine en yakın göstergedir.
+    1. sıradan 50. sıraya düşen bir ürün soğuyor; 30. sıradan 5. sıraya çıkan
+    ürün ısınıyor demektir.</p>
+    <p><em>Güncelleme: Günlük · Web scraping (hız sınırlı)</em></p>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col3:
+    st.markdown("""
+    <div class="source-card">
+    <h3 style="color:#fe2c55 !important;">🔴 TikTok Creative Center</h3>
+    <p><strong>Ne alıyoruz?</strong></p>
+    <ul>
+        <li>Ürünle ilgili hashtag'lerin gönderi sayısı</li>
+        <li>Haftalık büyüme oranı</li>
+        <li>Türkiye filtreli veriler (mümkün olduğunda)</li>
+    </ul>
+    <p><strong>Nasıl kullanıyoruz?</strong></p>
+    <p>TikTok trendleri, gerçek satıştan 2–4 hafta <em>önce</em> görünür hale gelir.
+    Bir ürün TikTok'ta viral oluyorsa, o ürünü Trendyol'da stoklayacak kişinin
+    şu an harekete geçmesi gerekir.</p>
+    <p><em>Güncelleme: Haftalık · Creative Center API / Apify</em></p>
+    </div>
+    """, unsafe_allow_html=True)
+
+st.markdown("---")
+
+# ─── 2. VERİ TOPLAMA SÜRECİ ──────────────────────────────────────────────────
+st.markdown("## 2️⃣ Veri Nasıl Toplanır?")
+
+steps = [
+    ("Tetikleyici", "Her gün saat 03:00'te GitHub Actions veya Celery zamanlayıcısı pipeline'ı başlatır."),
+    ("Google Trends çekimi", "pytrends kütüphanesi ile her sektör için 5'li gruplar halinde keyword sorguları gönderilir. Haftalık trend skoru ve son 8 haftanın değişimi hesaplanır. Hız sınırı: saatte 200 istek."),
+    ("Trendyol scraping", "BeautifulSoup + requests ile 'Çok Satanlar' sayfası kazınır. Her ürünün sıralaması, fiyatı, puanı ve yorum sayısı çekilir. Botların fark etmemesi için istekler arası 1–2 saniye beklenir."),
+    ("TikTok veri çekimi", "TikTok Creative Center'dan hashtag trend skorları alınır. Apify API token varsa daha güvenilir scraper kullanılır; yoksa doğrudan HTTP istekleri denenilir."),
+    ("Veritabanına kayıt", "Tüm ham veriler PostgreSQL'e zaman damgasıyla kaydedilir. Her güncelleme mevcut kaydın üzerine yazılmaz, yeni satır eklenir — böylece geçmişe dönük karşılaştırma mümkün olur."),
+    ("Skor hesaplama", "Toplanan ham verilerden ProductSignals nesneleri oluşturulur ve TrendScorer motoru çalıştırılır. Sonuçlar hem DB'ye kaydedilir hem de dashboard için hazır hale getirilir."),
+]
+
+for num, (title, desc) in enumerate(steps, 1):
+    st.markdown(
+        f"<p><span class='step-number'>{num}</span>"
+        f"<strong style='color:#1e1b4b !important;'>{title}</strong></p>"
+        f"<p style='margin-left:2.5rem;color:#374151 !important;'>{desc}</p>",
+        unsafe_allow_html=True,
+    )
+
+st.markdown("---")
+
+# ─── 3. TREND SKORU HESABI ───────────────────────────────────────────────────
+st.markdown("## 3️⃣ Trend Skoru Nasıl Hesaplanır?")
+
+st.markdown("""
+Her ürün için **üç ayrı kaynak skoru** hesaplanır, sonra bunlar ağırlıklı olarak
+birleştirilir:
+""")
+
+st.markdown("""
+<div class="formula-box">
+Trend Skoru = (Google Skoru × 0.30) + (Trendyol Skoru × 0.50) + (TikTok Skoru × 0.20)
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+**Neden bu ağırlıklar?**
+- **Trendyol %50** — Gerçek satış verisi en güvenilir sinyal. Müşteri parayı ödüyorsa ürün gerçekten satılıyor demektir.
+- **Google %30** — Arama niyeti önemli ama her arama alışverişe dönüşmez.
+- **TikTok %20** — Öncü gösterge olarak değerlidir ama viral bir video kısa ömürlü de olabilir.
+""")
+
+# Her kaynak skoru nasıl hesaplanıyor
+with st.expander("🔵 Google Skoru Detayı", expanded=False):
+    st.markdown("""
+    Ham Google Trends değeri zaten 0–100 arasındadır. Buna ek olarak **momentum** hesaplanır:
+
+    - Son 2 haftanın ortalaması ile önceki 2 haftanın ortalaması karşılaştırılır
+    - Yüzde değişim hesaplanır (örn. +%28.5 → yükseliş ivmesi var)
+    - Bu momentum, skora maksimum ±20 puan ekleme/çıkarma olarak yansır
+
+    ```
+    Momentum etkisi = trend_değişim_yüzdesi × 0.4  (maksimum ±20 puan)
+    Google Skoru = ham_skor + momentum_etkisi  (0–100 arasında sınırlandırılır)
+    ```
+
+    **Örnek:** "Termos" son hafta 72 puan, önceki haftalara göre +%28.5 büyüme →
+    Momentum = 28.5 × 0.4 = 11.4 → Google Skoru = 72 + 11.4 = 83.4
+    """)
+
+with st.expander("🟠 Trendyol Skoru Detayı", expanded=False):
+    st.markdown("""
+    Trendyol'da dört farklı bilgi bir araya getirilir:
+
+    | Bileşen | Ağırlık | Açıklama |
+    |---------|---------|---------|
+    | Sıralama skoru | %55 | 1. sıra = 100 puan, log ölçekli düşüş |
+    | Sıralama değişimi | doğrudan | Önceki haftaya göre iyileşme/kötüleşme |
+    | Sosyal kanıt (yorum sayısı) | %30 | Log ölçekli, max 20 puan |
+    | Puan bonusu | %15 | 5 üzerinden derecelendirme, max 10 puan |
+
+    **Sıralama formülü:** `Sıralama Skoru = max(0, 100 - log10(sıra) × 50)`
+
+    - 1. sıra → 100 puan
+    - 10. sıra → 50 puan
+    - 100. sıra → 0 puan
+    - 999. sıra (bulunamadı) → 0 puan
+    """)
+
+with st.expander("🔴 TikTok Skoru Detayı", expanded=False):
+    st.markdown("""
+    TikTok hashtag gönderi sayısı logaritmik ölçekle normalize edilir:
+
+    ```
+    TikTok Skoru = min(100, (log10(gönderi_sayısı) / 7) × 100)
+    ```
+
+    - 10 gönderi → yaklaşık 14 puan
+    - 10.000 gönderi → yaklaşık 57 puan
+    - 10.000.000 gönderi → 100 puan (zirve)
+
+    **Neden log ölçek?** "Termos" ile "Study" arasındaki 100×'lik gönderi farkı,
+    gerçek ilgi farkını abartır. Log ölçek bu farkı makul bir aralığa çeker.
+    """)
+
+st.markdown("---")
+
+# ─── 4. RİSK SEVİYESİ ────────────────────────────────────────────────────────
+st.markdown("## 4️⃣ Risk Seviyesi Nedir?")
+
+rc1, rc2, rc3 = st.columns(3)
+with rc1:
+    st.success("""
+**🟢 Düşük Risk — Composite ≥ 60**
+
+Ürün hem aranıyor hem satılıyor hem de sosyal medyada gündemde. Stoğa alımak için
+güvenli bölge. Talep sürdürülebilir görünüyor.
+    """)
+with rc2:
+    st.warning("""
+**🟡 Orta Risk — Composite 35–59**
+
+Ürün belirli sinyaller veriyor ama henüz tüm kanallar aynı fikirde değil. Küçük
+miktarda stok denenebilir; gözlem süreci devam etmeli.
+    """)
+with rc3:
+    st.error("""
+**🔴 Yüksek Risk — Composite < 35**
+
+Ürünle ilgili sinyaller zayıf veya düşüşte. Stok yapmaktan kaçınılmalı ya da
+mevcut stok eritilmeli.
+    """)
+
+st.markdown("""
+> **Önemli Not:** Risk seviyesi stok riskini değil *talep riskini* ölçer. Yüksek
+> risk = talep belirsiz demektir; ürünün kalitesiyle ilgisi yoktur.
+""")
+
+st.markdown("---")
+
+# ─── 5. KANAL ÖNERİSİ ────────────────────────────────────────────────────────
+st.markdown("## 5️⃣ Kanal Önerisi Nasıl Belirleniyor?")
+
+st.markdown("""
+Her satış kanalı için **farklı kaynak ağırlıkları** kullanılır. Çünkü bir ürünün
+Trendyol'da iyi satması, aynı ürünün Instagram'da da iyi satacağı anlamına gelmez.
+""")
+
+weight_data = {
+    "Kaynak":       ["Google Trends", "Trendyol",  "TikTok"],
+    "Trendyol":     ["% 25",          "% 60",      "% 15"],
+    "Instagram":    ["% 30",          "% 25",      "% 45"],
+    "Fiz. Mağaza":  ["% 40",          "% 35",      "% 25"],
+}
+
+import pandas as pd
+df_weights = pd.DataFrame(weight_data).set_index("Kaynak")
+st.dataframe(df_weights, use_container_width=False)
+
+st.markdown("""
+**Mantık:**
+- **Trendyol kanalı** için Trendyol satış verisi en önemli sinyaldir (%60). Zaten orada satıyorsa oraya koy.
+- **Instagram kanalı** için TikTok trendi kritiktir (%45). TikTok'ta viral olan ürünler Instagram'da da tutar.
+- **Fiziksel mağaza** için Google aramaları daha belirleyicidir (%40). İnsanlar yakınlarındaki mağazayı ararken Google kullanır.
+""")
+
+st.markdown("---")
+
+# ─── 6. ŞEHİR ETKİSİ ─────────────────────────────────────────────────────────
+st.markdown("## 6️⃣ Konum Seçimi Skoru Nasıl Etkiler?")
+
+st.markdown("""
+Farklı şehirlerde online alışveriş vs. fiziksel mağaza tercihleri farklılaşır.
+Konum seçildiğinde **kanal skorlarına düzeltme katsayıları** uygulanır:
+""")
+
+city_data = {
+    "Şehir":       ["İstanbul", "İzmir",   "Ankara",  "Konya",  "Gaziantep"],
+    "Trendyol":    ["+5",       "+3",      "+4",      "-1",     "0"],
+    "Instagram":   ["+8",       "+7",      "+5",      "+1",     "+1"],
+    "Fiz. Mağaza": ["-3",       "-2",      "0",       "+5",     "+5"],
+}
+df_city = pd.DataFrame(city_data).set_index("Şehir")
+st.dataframe(df_city, use_container_width=False)
+
+st.markdown("""
+**Örnek:** İstanbul seçildiğinde Instagram skoru +8 puan alır — büyük şehirlerde
+sosyal medya alışverişi çok daha yaygın. Konya seçildiğinde ise fiziksel mağaza
+skoru +5 puan alır — Anadolu'da yüz yüze ticaret hâlâ güçlü.
+
+> Tüm Türkiye seçilirse hiçbir düzeltme uygulanmaz; ham skorlar kullanılır.
+""")
+
+st.markdown("---")
+
+# ─── 7. HAFTALık TAHMİN ──────────────────────────────────────────────────────
+st.markdown("## 7️⃣ 6 Haftalık Talep Tahmini Nasıl Yapılıyor?")
+
+st.markdown("""
+Grafikteki haftalık tahmin, basit bir **momentum + ortalamaya dönüş** modelidir:
+""")
+
+st.markdown("""
+<div class="formula-box">
+Sonraki_Hafta = Önceki_Hafta + (Momentum × 0.8^hafta) + Ortalamaya_Çekim
+
+Ortalamaya_Çekim = (50 − Mevcut_Değer) × 0.05
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+**Basitçe ne anlama geliyor?**
+- Eğer bir ürün yükseliyorsa (pozitif momentum), kısa vadede çıkmaya devam eder.
+- Ama her hafta bu momentum zayıflar (0.8^hafta ile azalır).
+- Aynı zamanda skor her zaman 50'ye (ortalamaya) doğru hafifçe çekilir.
+- Sonuç: kısa vadeli tahminler daha güvenilir, uzak haftalar daha belirsiz.
+
+> Bu model istatistiksel bir tahmindir, kesin satış rakamı değildir. Karar
+> desteği sağlamak için tasarlanmıştır.
+""")
+
+# Örnek tahmin grafiği
+import math
+base, momentum = 66, 28.5
+forecast = [base]
+for week in range(1, 6):
+    decay   = 0.8 ** week
+    next_v  = forecast[-1] + (momentum * 0.05 * decay)
+    revert  = (50 - next_v) * 0.05
+    forecast.append(round(max(0, min(100, next_v + revert)), 1))
+
+labels = ["Bu Hafta"] + [f"+{i} Hafta" for i in range(1, 6)]
+fig = go.Figure()
+fig.add_trace(go.Scatter(
+    x=labels, y=forecast,
+    mode="lines+markers",
+    line=dict(color="#7c3aed", width=3),
+    marker=dict(size=9, color="#7c3aed"),
+    fill="tozeroy", fillcolor="rgba(124,58,237,0.08)",
+    name="Termos — Örnek Tahmin",
+))
+fig.update_layout(
+    title="Örnek: Termos ürünü için 6 haftalık tahmin",
+    yaxis_range=[0, 100], height=260,
+    margin=dict(t=45, b=25, l=45, r=15),
+    paper_bgcolor="#ffffff", plot_bgcolor="#f9f8ff",
+    font=dict(color="#1e1b4b", size=12), showlegend=False,
+)
+fig.update_xaxes(showgrid=False, color="#6b7280")
+fig.update_yaxes(gridcolor="#e9d5ff", color="#6b7280")
+st.plotly_chart(fig, use_container_width=True, key="example_forecast")
+
+st.markdown("---")
+
+# ─── 8. SINIRLAMALAR ─────────────────────────────────────────────────────────
+st.markdown("## 8️⃣ Sistemin Sınırlamaları")
+
+st.markdown("""
+<div class="info-box">
+Dürüst olmak gerekirse — TradeTrend bir karar destek aracıdır, kehanet değil.
+</div>
+""", unsafe_allow_html=True)
+
+lim1, lim2 = st.columns(2)
+with lim1:
+    st.markdown("""
+**⚠️ Dikkat edilmesi gerekenler:**
+- Google Trends verisi tam satış adedini değil, *görece ilgiyi* ölçer
+- Trendyol scraping veri kaynağının sık değişen HTML yapısından etkilenebilir
+- TikTok trendleri çok hızlı yüksek, çok hızlı düşer (flash trend riski)
+- Mevsimsellik bağımsız olarak hesaplanmıyor (henüz)
+- Fiyat rekabeti ve kargo maliyetleri modele dahil değil
+    """)
+with lim2:
+    st.markdown("""
+**✅ Sistemin güçlü olduğu durumlar:**
+- Yeni bir sektöre girerken hangi ürünlerden başlanacağını belirlemek
+- Zaten satılan ürünlerin trend durumunu haftalık takip etmek
+- Rakiplerin öne çıkardığı kategorileri erken fark etmek
+- Hangi kanalda reklam bütçesi harcanacağına karar vermek
+- Stoğa ne kadar yatırım yapılacağına referans oluşturmak
+    """)
+
+st.markdown("---")
+
+# ─── Footer ───────────────────────────────────────────────────────────────────
+st.markdown("""
+<p style='text-align:center;color:#9ca3af;font-size:0.82rem;margin-top:1rem'>
+TradeTrend MVP v0.1 — Veri kaynakları: Google Trends · Trendyol · TikTok Creative Center
+</p>
+""", unsafe_allow_html=True)

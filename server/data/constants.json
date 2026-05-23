@@ -1,0 +1,84 @@
+{
+  "SECTORS": {
+    "Kırtasiye": "kirtasiye",
+    "Elektronik": "elektronik",
+    "Giyim": "giyim",
+    "Ev & Yaşam": "ev_yasam",
+    "Kozmetik": "kozmetik",
+    "Spor & Outdoor": "spor",
+    "Gıda & İçecek": "gida",
+    "Oyuncak & Hobi": "oyuncak"
+  },
+  "SECTOR_EMOJI": {
+    "kirtasiye": "✏️",
+    "elektronik": "📱",
+    "giyim": "👕",
+    "ev_yasam": "🏠",
+    "kozmetik": "💄",
+    "spor": "🏋️",
+    "gida": "🥗",
+    "oyuncak": "🎮"
+  },
+  "SECTOR_GRAD": {
+    "kirtasiye": [
+      "214,234,254",
+      "219,234,254"
+    ],
+    "elektronik": [
+      "220,252,231",
+      "209,250,229"
+    ],
+    "giyim": [
+      "254,226,226",
+      "254,215,215"
+    ],
+    "ev_yasam": [
+      "254,243,199",
+      "253,230,138"
+    ],
+    "kozmetik": [
+      "252,231,243",
+      "251,207,232"
+    ],
+    "spor": [
+      "220,252,231",
+      "187,247,208"
+    ],
+    "gida": [
+      "236,253,245",
+      "209,250,229"
+    ],
+    "oyuncak": [
+      "237,233,254",
+      "221,214,254"
+    ]
+  },
+  "RISK_COLORS": {
+    "low": "#059669",
+    "medium": "#d97706",
+    "high": "#dc2626"
+  },
+  "RISK_LABELS": {
+    "low": "Düşük Risk",
+    "medium": "Orta Risk",
+    "high": "Yüksek Risk"
+  },
+  "CHANNEL_MAP": {
+    "trendyol": "Trendyol",
+    "amazon_tr": "Amazon TR",
+    "instagram": "Instagram",
+    "store": "Fiziksel Mağaza"
+  },
+  "CHANNEL_COLOR": {
+    "trendyol": "#f27a1a",
+    "amazon_tr": "#f90",
+    "instagram": "#e1306c",
+    "store": "#059669"
+  },
+  "SIDEBAR_TO_KEY": {
+    "Trendyol": "trendyol",
+    "Amazon TR": "amazon_tr",
+    "Instagram": "instagram",
+    "Fiziksel Mağaza": "store"
+  }
+}

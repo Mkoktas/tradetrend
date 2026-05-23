@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TradeTrend — Ne Sat, Ne Zaman, Nerede</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.plot.ly/plotly-2.30.0.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<div class="layout">
+
+  <!-- ── SIDEBAR ──────────────────────────────────────────────────────────── -->
+  <aside class="sidebar">
+    <h1>📈 Trade<span>Trend</span></h1>
+
+    <div class="filter-group">
+      <div class="filter-label">🏷️ Sektör</div>
+      <select id="sel-sector" onchange="onSectorChange()"></select>
+    </div>
+
+    <div class="filter-group" id="fg-ana">
+      <div class="filter-label">📁 Ana Kategori</div>
+      <select id="sel-ana" onchange="onAnaCatChange()"></select>
+    </div>
+
+    <div class="filter-group" id="fg-alt">
+      <div class="filter-label">📂 Alt Kategori</div>
+      <select id="sel-alt" onchange="debouncedLoad()"></select>
+    </div>
+
+    <div class="filter-group" id="fg-region">
+      <div class="filter-label">🗺️ Bölge</div>
+      <select id="sel-region" onchange="debouncedLoad()"></select>
+    </div>
+
+    <div class="filter-group" id="fg-channels">
+      <div class="filter-label">📡 Satış Kanalları</div>
+      <div class="multi-check" id="chk-channels"></div>
+    </div>
+
+    <div class="filter-group" id="fg-risk">
+      <div class="filter-label">⚠️ Risk Filtresi</div>
+      <div class="multi-check" id="chk-risk">
+        <label><input type="checkbox" value="low"    checked> 🟢 Düşük Risk</label>
+        <label><input type="checkbox" value="medium" checked> 🟡 Orta Risk</label>
+        <label><input type="checkbox" value="high"   checked> 🔴 Yüksek Risk</label>
+      </div>
+    </div>
+
+    <button class="btn-primary" onclick="loadTrends()">🔄 Yenile</button>
+    <button class="btn-guide" id="sidebar-guide-btn" onclick="setPageTab('guide')">📖 Nasıl Çalışır?</button>
+  </aside>
+
+  <!-- ── MAIN ─────────────────────────────────────────────────────────────── -->
+  <main class="main">
+
+    <!-- Header -->
+    <div class="header">
+      <div class="header-title" id="header-title">📈 TradeTrend</div>
+      <div class="header-sub"   id="header-sub">Türkiye e-ticaret trend analizi</div>
+    </div>
+
+    <!-- Metrics -->
+    <div class="metrics">
+      <div class="metric-card">
+        <div class="metric-label">Analiz Edilen</div>
+        <div class="metric-value" id="m-total">—</div>
+        <div class="metric-delta">ürün</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Ort. Skor</div>
+        <div class="metric-value" id="m-avg">—</div>
+        <div class="metric-delta">/100</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Yüksek Risk</div>
+        <div class="metric-value" id="m-risk">—</div>
+        <div class="metric-delta">ürün</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">En İyi Kanal</div>
+        <div class="metric-value" id="m-channel" style="font-size:1rem;">—</div>
+        <div class="metric-delta">öneri</div>
+      </div>
+    </div>
+
+    <!-- Page tabs -->
+    <div class="page-tabs">
+      <button class="page-tab active" id="ptab-trends"  onclick="setPageTab('trends')">📊 Ürün Trendleri</button>
+      <button class="page-tab"        id="ptab-imports" onclick="setPageTab('imports')">🚢 İthalat Fırsatları</button>
+    </div>
+
+    <!-- Overview charts -->
+    <div id="section-trends">
+      <!-- Turkey region map -->
+      <div class="glass-card" style="padding:.8rem;margin-bottom:1rem;overflow:visible;">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.4rem;">
+          <div style="font-size:.78rem;font-weight:700;color:#374151;">🗺️ Bölgesel Fırsat Haritası</div>
+          <div id="map-subtitle" style="font-size:.68rem;color:#6b7280;"></div>
+        </div>
+        <div id="chart-map"></div>
+      </div>
+      <div class="charts-row">
+        <div class="glass-card" style="padding:.8rem;">
+          <div style="font-size:.78rem;font-weight:700;color:#374151;margin-bottom:.4rem;">🏆 Composite Skor Dağılımı</div>
+          <div id="chart-overview" style="min-height:200px;"></div>
+        </div>
+        <div class="glass-card" style="padding:.8rem;">
+          <div style="font-size:.78rem;font-weight:700;color:#374151;margin-bottom:.4rem;">⚠️ Risk Dağılımı</div>
+          <div id="chart-risk" style="min-height:200px;"></div>
+        </div>
+      </div>
+
+      <!-- Product cards -->
+      <div id="product-list">
+        <div class="loading"><div class="spinner"></div> Yükleniyor...</div>
+      </div>
+    </div>
+
+    <!-- Import section (hidden by default) -->
+    <div id="section-imports" style="display:none;">
+      <div id="import-list">
+        <div class="loading"><div class="spinner"></div> Yükleniyor...</div>
+      </div>
+    </div>
+
+    <!-- Guide section (hidden by default) -->
+    <div id="section-guide" style="display:none;">
+      <div id="guide-content"></div>
+    </div>
+
+  </main>
+</div>
+</body>
+</html>

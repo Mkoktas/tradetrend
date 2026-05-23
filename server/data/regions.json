@@ -1,0 +1,185 @@
+{
+  "REGIONS": [
+    "Tüm Türkiye",
+    "Marmara",
+    "Ege",
+    "Akdeniz",
+    "İç Anadolu",
+    "Karadeniz",
+    "Doğu Anadolu",
+    "Güneydoğu Anadolu"
+  ],
+  "REGION_CHANNEL_BIAS": {
+    "Tüm Türkiye": {
+      "trendyol": 0,
+      "amazon_tr": 0,
+      "instagram": 0,
+      "store": 0
+    },
+    "Marmara": {
+      "trendyol": 7,
+      "amazon_tr": 8,
+      "instagram": 10,
+      "store": -5
+    },
+    "Ege": {
+      "trendyol": 4,
+      "amazon_tr": 4,
+      "instagram": 8,
+      "store": -2
+    },
+    "Akdeniz": {
+      "trendyol": 2,
+      "amazon_tr": 2,
+      "instagram": 5,
+      "store": 2
+    },
+    "İç Anadolu": {
+      "trendyol": 2,
+      "amazon_tr": 2,
+      "instagram": 3,
+      "store": 3
+    },
+    "Karadeniz": {
+      "trendyol": -2,
+      "amazon_tr": -2,
+      "instagram": 1,
+      "store": 6
+    },
+    "Doğu Anadolu": {
+      "trendyol": -4,
+      "amazon_tr": -4,
+      "instagram": -2,
+      "store": 9
+    },
+    "Güneydoğu Anadolu": {
+      "trendyol": -3,
+      "amazon_tr": -4,
+      "instagram": -1,
+      "store": 9
+    }
+  },
+  "REGION_BASE_SCORE_DELTA": {
+    "Tüm Türkiye": 0,
+    "Marmara": 10,
+    "Ege": 6,
+    "Akdeniz": 2,
+    "İç Anadolu": 1,
+    "Karadeniz": -4,
+    "Doğu Anadolu": -10,
+    "Güneydoğu Anadolu": -8
+  },
+  "REGION_SECTOR_AFFINITY": {
+    "Tüm Türkiye": {},
+    "Marmara": {
+      "giyim": 12,
+      "elektronik": 10,
+      "kozmetik": 10,
+      "kirtasiye": 6,
+      "oyuncak": 5,
+      "ev_yasam": 4,
+      "spor": 3,
+      "gida": 2
+    },
+    "Ege": {
+      "spor": 12,
+      "kozmetik": 8,
+      "giyim": 8,
+      "gida": 8,
+      "ev_yasam": 6,
+      "kirtasiye": 3,
+      "elektronik": 2,
+      "oyuncak": 2
+    },
+    "Akdeniz": {
+      "spor": 14,
+      "gida": 8,
+      "giyim": 6,
+      "ev_yasam": 5,
+      "kozmetik": 4,
+      "kirtasiye": 1,
+      "elektronik": 0,
+      "oyuncak": 2
+    },
+    "İç Anadolu": {
+      "gida": 8,
+      "ev_yasam": 7,
+      "kirtasiye": 6,
+      "spor": 4,
+      "oyuncak": 4,
+      "kozmetik": 2,
+      "giyim": 2,
+      "elektronik": 2
+    },
+    "Karadeniz": {
+      "gida": 14,
+      "spor": 12,
+      "ev_yasam": 8,
+      "kirtasiye": 4,
+      "oyuncak": 3,
+      "giyim": -2,
+      "kozmetik": -3,
+      "elektronik": -5
+    },
+    "Doğu Anadolu": {
+      "spor": 10,
+      "gida": 10,
+      "ev_yasam": 6,
+      "kirtasiye": 2,
+      "oyuncak": 2,
+      "kozmetik": -6,
+      "elektronik": -10,
+      "giyim": -4
+    },
+    "Güneydoğu Anadolu": {
+      "gida": 12,
+      "spor": 8,
+      "ev_yasam": 6,
+      "kirtasiye": 2,
+      "oyuncak": 3,
+      "kozmetik": -4,
+      "elektronik": -8,
+      "giyim": -3
+    }
+  },
+  "REGION_META": {
+    "Tüm Türkiye": {
+      "emoji": "🇹🇷",
+      "desc": "Ulusal ortalama — bölge ayrımı yok"
+    },
+    "Marmara": {
+      "emoji": "🌆",
+      "desc": "İstanbul, Bursa, Kocaeli · En yüksek e-ticaret"
+    },
+    "Ege": {
+      "emoji": "🌊",
+      "desc": "İzmir, Muğla, Denizli · Turizm & organik yaşam"
+    },
+    "Akdeniz": {
+      "emoji": "☀️",
+      "desc": "Antalya, Adana, Mersin · Turizm & outdoor"
+    },
+    "İç Anadolu": {
+      "emoji": "🏛️",
+      "desc": "Ankara, Konya, Kayseri · Pratik & ev odaklı"
+    },
+    "Karadeniz": {
+      "emoji": "🌿",
+      "desc": "Trabzon, Samsun, Rize · Doğa & gıda kültürü"
+    },
+    "Doğu Anadolu": {
+      "emoji": "🏔️",
+      "desc": "Erzurum, Van, Malatya · Fiziksel mağaza baskın"
+    },
+    "Güneydoğu Anadolu": {
+      "emoji": "🌾",
+      "desc": "Gaziantep, Şanlıurfa · Tarım & gıda odaklı"
+    }
+  },
+  "SALES_CHANNELS": [
+    "Trendyol",
+    "Amazon TR",
+    "Instagram",
+    "Fiziksel Mağaza"
+  ]
+}

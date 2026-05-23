@@ -1,0 +1,1325 @@
+{
+  "kirtasiye": [
+    {
+      "product_name": "Washi Tape Koleksiyonu",
+      "subcategory": "Sanat & Dekor",
+      "demand_score": 88,
+      "local_supply_score": 28,
+      "supply_gap": 60,
+      "import_score": 82,
+      "monthly_searches_tr": 45000,
+      "foreign_platforms": [
+        "AliExpress",
+        "Etsy",
+        "Rakuten Japan"
+      ],
+      "avg_price_usd": 12,
+      "avg_price_try": 450,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Japon kırtasiye kültürü TikTok'ta patlama yapıyor. Türkiye'de satıcı sayısı hâlâ çok az."
+    },
+    {
+      "product_name": "Kawaii Sticker Pack Seti",
+      "subcategory": "Sanat & Dekor",
+      "demand_score": 84,
+      "local_supply_score": 22,
+      "supply_gap": 62,
+      "import_score": 80,
+      "monthly_searches_tr": 38000,
+      "foreign_platforms": [
+        "AliExpress",
+        "SHEIN",
+        "Etsy"
+      ],
+      "avg_price_usd": 8,
+      "avg_price_try": 320,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Gen Z ve öğrenciler arasında Kore/Japon tarzı sticker set kültürü yaygınlaşıyor."
+    },
+    {
+      "product_name": "Discbound Planner Sistemi",
+      "subcategory": "Defterler & Planlayıcı",
+      "demand_score": 75,
+      "local_supply_score": 18,
+      "supply_gap": 57,
+      "import_score": 74,
+      "monthly_searches_tr": 22000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Etsy",
+        "Arc by Staples"
+      ],
+      "avg_price_usd": 35,
+      "avg_price_try": 1350,
+      "trend_direction": "rising",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Modüler planlayıcı sistemi Türkiye'de neredeyse hiç yok; ciddi talep mevcut."
+    },
+    {
+      "product_name": "Kaligrafi & Brush Pen Seti",
+      "subcategory": "Kalemler & Yazı",
+      "demand_score": 70,
+      "local_supply_score": 35,
+      "supply_gap": 35,
+      "import_score": 62,
+      "monthly_searches_tr": 18000,
+      "foreign_platforms": [
+        "Amazon JP",
+        "AliExpress",
+        "Jetpens"
+      ],
+      "avg_price_usd": 25,
+      "avg_price_try": 980,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "El yazısı ve kaligrafi hobisi pandemi sonrası yerleşti; kaliteli ürün az."
+    },
+    {
+      "product_name": "Epoxy Resin Sanat Kiti",
+      "subcategory": "Sanat & Hobi",
+      "demand_score": 68,
+      "local_supply_score": 42,
+      "supply_gap": 26,
+      "import_score": 55,
+      "monthly_searches_tr": 16500,
+      "foreign_platforms": [
+        "AliExpress",
+        "Amazon DE"
+      ],
+      "avg_price_usd": 28,
+      "avg_price_try": 1100,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "DIY resin sanatı büyüyor ama kaliteli kit Türkiye'de bulmak güç."
+    },
+    {
+      "product_name": "Tomoe River Kağıtlı Defter",
+      "subcategory": "Defterler & Planlayıcı",
+      "demand_score": 62,
+      "local_supply_score": 12,
+      "supply_gap": 50,
+      "import_score": 66,
+      "monthly_searches_tr": 12000,
+      "foreign_platforms": [
+        "Jetpens",
+        "Amazon JP",
+        "Galen Leather"
+      ],
+      "avg_price_usd": 30,
+      "avg_price_try": 1180,
+      "trend_direction": "stable",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Dolma kalem hobi topluluğu için premium Japon kağıtlı defterler talep görüyor."
+    },
+    {
+      "product_name": "Hobonichi Techo Planner",
+      "subcategory": "Defterler & Planlayıcı",
+      "demand_score": 70,
+      "local_supply_score": 8,
+      "supply_gap": 62,
+      "import_score": 72,
+      "monthly_searches_tr": 22000,
+      "foreign_platforms": [
+        "Hobonichi Store",
+        "Amazon JP",
+        "Etsy"
+      ],
+      "avg_price_usd": 32,
+      "avg_price_try": 1250,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Japon tarzı yıllık planlayıcı kültürü Instagram ve TikTok'ta hız kazanıyor; TR'de resmi satıcı yok."
+    },
+    {
+      "product_name": "Mildliner Çift Uçlu İşaretleme Seti",
+      "subcategory": "Kalemler & Yazı",
+      "demand_score": 78,
+      "local_supply_score": 20,
+      "supply_gap": 58,
+      "import_score": 74,
+      "monthly_searches_tr": 38000,
+      "foreign_platforms": [
+        "Amazon JP",
+        "Jetpens",
+        "AliExpress"
+      ],
+      "avg_price_usd": 24,
+      "avg_price_try": 935,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Zebra Mildliner bullet journal topluluğunda küresel hit; Türkiye'de yetkili dağıtım yok."
+    },
+    {
+      "product_name": "Aesthetic Sticker Book Seti",
+      "subcategory": "Sanat & Dekor",
+      "demand_score": 66,
+      "local_supply_score": 30,
+      "supply_gap": 36,
+      "import_score": 58,
+      "monthly_searches_tr": 32000,
+      "foreign_platforms": [
+        "Etsy",
+        "AliExpress",
+        "Amazon US"
+      ],
+      "avg_price_usd": 14,
+      "avg_price_try": 545,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Gen Z planlayıcı dekorasyon trendi; estetik sticker book seti Türkiye'de çeşitli değil."
+    }
+  ],
+  "elektronik": [
+    {
+      "product_name": "Mini Drone (250g altı)",
+      "subcategory": "Akıllı Cihazlar",
+      "demand_score": 90,
+      "local_supply_score": 52,
+      "supply_gap": 38,
+      "import_score": 83,
+      "monthly_searches_tr": 72000,
+      "foreign_platforms": [
+        "Amazon US",
+        "AliExpress",
+        "DJI Store"
+      ],
+      "avg_price_usd": 150,
+      "avg_price_try": 5800,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Drone ithalatı zorlaşıyor; yetkili distribütör olmak büyük rekabet avantajı."
+    },
+    {
+      "product_name": "Ring Light + Tripod Kit",
+      "subcategory": "İçerik Üretici",
+      "demand_score": 88,
+      "local_supply_score": 58,
+      "supply_gap": 30,
+      "import_score": 76,
+      "monthly_searches_tr": 65000,
+      "foreign_platforms": [
+        "Amazon US",
+        "AliExpress"
+      ],
+      "avg_price_usd": 45,
+      "avg_price_try": 1750,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "İçerik üretici kitleri hem TikTok hem YouTube kitlesinde Türkiye'de çok aranıyor."
+    },
+    {
+      "product_name": "GaN Şarj Aleti 140W+",
+      "subcategory": "Şarj & Güç",
+      "demand_score": 85,
+      "local_supply_score": 46,
+      "supply_gap": 39,
+      "import_score": 79,
+      "monthly_searches_tr": 55000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Anker Store",
+        "AliExpress"
+      ],
+      "avg_price_usd": 55,
+      "avg_price_try": 2150,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "USB-C ekosistemi büyüdükçe tek adaptörde çok cihaz şarjına talep artıyor."
+    },
+    {
+      "product_name": "Dijital Çizim Tableti (A5+)",
+      "subcategory": "PC & Yaratıcı",
+      "demand_score": 80,
+      "local_supply_score": 44,
+      "supply_gap": 36,
+      "import_score": 72,
+      "monthly_searches_tr": 42000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Amazon DE",
+        "AliExpress"
+      ],
+      "avg_price_usd": 80,
+      "avg_price_try": 3100,
+      "trend_direction": "rising",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Dijital illüstrasyon ve içerik üretim trendi ile çizim tableti talebi büyüdü."
+    },
+    {
+      "product_name": "USB-C 12-in-1 Hub Dock",
+      "subcategory": "PC Aksesuarı",
+      "demand_score": 78,
+      "local_supply_score": 50,
+      "supply_gap": 28,
+      "import_score": 65,
+      "monthly_searches_tr": 36000,
+      "foreign_platforms": [
+        "Amazon US",
+        "AliExpress",
+        "Baseus"
+      ],
+      "avg_price_usd": 42,
+      "avg_price_try": 1640,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Laptop aksesuarı pazarı genişliyor; kaliteli hub yerel stoklarda yok."
+    },
+    {
+      "product_name": "Mekanik Klavye Switch Kiti",
+      "subcategory": "PC & Oyun",
+      "demand_score": 72,
+      "local_supply_score": 38,
+      "supply_gap": 34,
+      "import_score": 63,
+      "monthly_searches_tr": 28000,
+      "foreign_platforms": [
+        "Amazon US",
+        "KBDfans",
+        "AliExpress"
+      ],
+      "avg_price_usd": 35,
+      "avg_price_try": 1360,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Mekanik klavye modding topluluğu Türkiye'de hızla büyüyor; aksesuar arzı yok."
+    },
+    {
+      "product_name": "4K Webcam Otofokus",
+      "subcategory": "İçerik Üretici",
+      "demand_score": 82,
+      "local_supply_score": 40,
+      "supply_gap": 42,
+      "import_score": 74,
+      "monthly_searches_tr": 48000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Logitech Store",
+        "AliExpress"
+      ],
+      "avg_price_usd": 90,
+      "avg_price_try": 3510,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Uzaktan çalışma ve içerik üretimi patlamasıyla 4K webcam talebi arttı; TR'de stok yetersiz."
+    },
+    {
+      "product_name": "Akıllı Ev Sensör Seti (Zigbee)",
+      "subcategory": "Akıllı Cihazlar",
+      "demand_score": 75,
+      "local_supply_score": 32,
+      "supply_gap": 43,
+      "import_score": 68,
+      "monthly_searches_tr": 34000,
+      "foreign_platforms": [
+        "AliExpress",
+        "Amazon DE",
+        "Aqara Store"
+      ],
+      "avg_price_usd": 60,
+      "avg_price_try": 2340,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Akıllı ev ekosistemine ilgi artıyor; protokol uyumlu sensör seti Türkiye'de kısıtlı."
+    },
+    {
+      "product_name": "Taşınabilir Projeksiyon (Mini Laser)",
+      "subcategory": "PC & Yaratıcı",
+      "demand_score": 68,
+      "local_supply_score": 28,
+      "supply_gap": 40,
+      "import_score": 62,
+      "monthly_searches_tr": 28000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Nebula Store",
+        "AliExpress"
+      ],
+      "avg_price_usd": 140,
+      "avg_price_try": 5460,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Ev sinema ve outdoor projeksiyon trendi büyüyor; kompakt laser projektör TR'de az."
+    }
+  ],
+  "giyim": [
+    {
+      "product_name": "Vintage Amerikan Band Tişörtleri",
+      "subcategory": "Üst Giyim",
+      "demand_score": 87,
+      "local_supply_score": 20,
+      "supply_gap": 67,
+      "import_score": 85,
+      "monthly_searches_tr": 58000,
+      "foreign_platforms": [
+        "SHEIN",
+        "Depop",
+        "Etsy"
+      ],
+      "avg_price_usd": 22,
+      "avg_price_try": 860,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Y2K ve grunge estetiği TikTok'ta viral; özgün baskılı tişört Türkiye'de üretilmiyor."
+    },
+    {
+      "product_name": "Korean Wide-Leg Denim",
+      "subcategory": "Alt Giyim",
+      "demand_score": 85,
+      "local_supply_score": 38,
+      "supply_gap": 47,
+      "import_score": 78,
+      "monthly_searches_tr": 52000,
+      "foreign_platforms": [
+        "SHEIN",
+        "Musinsa",
+        "AliExpress"
+      ],
+      "avg_price_usd": 30,
+      "avg_price_try": 1180,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "K-fashion trendi TikTok'ta dominant; Türk markaları kalıp farkını yakalayamıyor."
+    },
+    {
+      "product_name": "Y2K Platform Sneaker",
+      "subcategory": "Ayakkabı",
+      "demand_score": 82,
+      "local_supply_score": 42,
+      "supply_gap": 40,
+      "import_score": 73,
+      "monthly_searches_tr": 48000,
+      "foreign_platforms": [
+        "SHEIN",
+        "Amazon US",
+        "Yesstyle"
+      ],
+      "avg_price_usd": 38,
+      "avg_price_try": 1480,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Platform taban trendde; kaliteli beden açığı ve tasarım özgünlüğü fırsatı veriyor."
+    },
+    {
+      "product_name": "Cottagecore Midi Elbise",
+      "subcategory": "Üst Giyim",
+      "demand_score": 76,
+      "local_supply_score": 28,
+      "supply_gap": 48,
+      "import_score": 70,
+      "monthly_searches_tr": 38000,
+      "foreign_platforms": [
+        "SHEIN",
+        "Etsy",
+        "Amazon UK"
+      ],
+      "avg_price_usd": 28,
+      "avg_price_try": 1100,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Romantik ve doğal estetik trendi artıyor; Türk markaları bu segmente girmedi."
+    },
+    {
+      "product_name": "Harajuku Grafik Ceket",
+      "subcategory": "Dış Giyim",
+      "demand_score": 72,
+      "local_supply_score": 15,
+      "supply_gap": 57,
+      "import_score": 71,
+      "monthly_searches_tr": 28000,
+      "foreign_platforms": [
+        "AliExpress",
+        "Yesstyle",
+        "SHEIN"
+      ],
+      "avg_price_usd": 45,
+      "avg_price_try": 1760,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Alt kültür modası Türkiye'de gelişiyor; özgün Japon tarzı ceket arzı minimal."
+    },
+    {
+      "product_name": "Seamless Spor Tayt Set",
+      "subcategory": "Spor Giyim",
+      "demand_score": 80,
+      "local_supply_score": 55,
+      "supply_gap": 25,
+      "import_score": 62,
+      "monthly_searches_tr": 44000,
+      "foreign_platforms": [
+        "SHEIN",
+        "Amazon US",
+        "AliExpress"
+      ],
+      "avg_price_usd": 24,
+      "avg_price_try": 940,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Gym influencer kültürü büyüyor; seamless dokuma tekniği yerli üretimlerde sınırlı."
+    },
+    {
+      "product_name": "Capsule Wardrobe Temel Set",
+      "subcategory": "Üst Giyim",
+      "demand_score": 74,
+      "local_supply_score": 40,
+      "supply_gap": 34,
+      "import_score": 64,
+      "monthly_searches_tr": 32000,
+      "foreign_platforms": [
+        "Everlane",
+        "Amazon US",
+        "UNIQLO Online"
+      ],
+      "avg_price_usd": 55,
+      "avg_price_try": 2145,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Minimalist ve sürdürülebilir moda akımı büyüyor; kaliteli temel parça seti Türkiye'de az."
+    },
+    {
+      "product_name": "Linen Oversize Takım Elbise",
+      "subcategory": "Dış Giyim",
+      "demand_score": 68,
+      "local_supply_score": 22,
+      "supply_gap": 46,
+      "import_score": 65,
+      "monthly_searches_tr": 26000,
+      "foreign_platforms": [
+        "SHEIN",
+        "Amazon UK",
+        "Yesstyle"
+      ],
+      "avg_price_usd": 48,
+      "avg_price_try": 1870,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Doğal kumaş trendi hız kazanıyor; keten karışımlı oversize takım TR'de üretimi az."
+    },
+    {
+      "product_name": "Thermal Base Layer Pro Set",
+      "subcategory": "Spor Giyim",
+      "demand_score": 70,
+      "local_supply_score": 35,
+      "supply_gap": 35,
+      "import_score": 63,
+      "monthly_searches_tr": 24000,
+      "foreign_platforms": [
+        "Amazon DE",
+        "Decathlon Online",
+        "AliExpress"
+      ],
+      "avg_price_usd": 38,
+      "avg_price_try": 1480,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Outdoor ve kayak sporları artıyor; teknik termal içlik seti TR'de sınırlı seçenek."
+    }
+  ],
+  "ev_yasam": [
+    {
+      "product_name": "LED Neon Sign (Kişiselleştirilmiş)",
+      "subcategory": "Aydınlatma & Dekor",
+      "demand_score": 91,
+      "local_supply_score": 34,
+      "supply_gap": 57,
+      "import_score": 86,
+      "monthly_searches_tr": 70000,
+      "foreign_platforms": [
+        "AliExpress",
+        "Etsy",
+        "Amazon US"
+      ],
+      "avg_price_usd": 45,
+      "avg_price_try": 1750,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Oda ve ev ofisi dekorasyonu trendi; özelleştirilebilir neon TikTok'ta çok popüler."
+    },
+    {
+      "product_name": "Hidroponik İç Mekan Bahçe Kiti",
+      "subcategory": "Bahçe & Bitki",
+      "demand_score": 80,
+      "local_supply_score": 22,
+      "supply_gap": 58,
+      "import_score": 78,
+      "monthly_searches_tr": 42000,
+      "foreign_platforms": [
+        "Amazon US",
+        "AliExpress"
+      ],
+      "avg_price_usd": 65,
+      "avg_price_try": 2530,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Kentsel tarım ve sürdürülebilirlik trendi; Türkiye'de neredeyse hiç satıcı yok."
+    },
+    {
+      "product_name": "Japandi Minimalist Dekor Seti",
+      "subcategory": "Dekorasyon",
+      "demand_score": 78,
+      "local_supply_score": 30,
+      "supply_gap": 48,
+      "import_score": 74,
+      "monthly_searches_tr": 38000,
+      "foreign_platforms": [
+        "MUJI",
+        "Amazon JP",
+        "AliExpress"
+      ],
+      "avg_price_usd": 40,
+      "avg_price_try": 1560,
+      "trend_direction": "rising",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Japon-İskandinav fusion estetik hız kazandı; orijinal MUJI tarzı ürünlere talep var."
+    },
+    {
+      "product_name": "Aesthetic Desk Setup Aksesuar Seti",
+      "subcategory": "Ofis & Masa",
+      "demand_score": 84,
+      "local_supply_score": 44,
+      "supply_gap": 40,
+      "import_score": 72,
+      "monthly_searches_tr": 52000,
+      "foreign_platforms": [
+        "Amazon US",
+        "AliExpress",
+        "IKEA Global"
+      ],
+      "avg_price_usd": 55,
+      "avg_price_try": 2145,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Ev ofisi kültürü estetik masaüstüne yatırım yapıyor; tutarlı set satışı fırsatı."
+    },
+    {
+      "product_name": "Smart Plant Sensörü",
+      "subcategory": "Bahçe & Bitki",
+      "demand_score": 72,
+      "local_supply_score": 24,
+      "supply_gap": 48,
+      "import_score": 68,
+      "monthly_searches_tr": 28000,
+      "foreign_platforms": [
+        "Amazon US",
+        "AliExpress",
+        "Xiaomi Store"
+      ],
+      "avg_price_usd": 22,
+      "avg_price_try": 860,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Ev bitki meraklısı kitlesinde akıllı bakım teknolojisi popülerleşiyor."
+    },
+    {
+      "product_name": "Ritual Mum & Aromaterapi Seti",
+      "subcategory": "Aroma & Rahatlama",
+      "demand_score": 74,
+      "local_supply_score": 48,
+      "supply_gap": 26,
+      "import_score": 60,
+      "monthly_searches_tr": 32000,
+      "foreign_platforms": [
+        "Etsy",
+        "Amazon US",
+        "AliExpress"
+      ],
+      "avg_price_usd": 32,
+      "avg_price_try": 1250,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Wellness ve self-care trendi; sertifikalı kristal ve ritüel setlere talep büyüyor."
+    },
+    {
+      "product_name": "Japandi Ahşap Raf Sistemi",
+      "subcategory": "Dekorasyon",
+      "demand_score": 76,
+      "local_supply_score": 34,
+      "supply_gap": 42,
+      "import_score": 67,
+      "monthly_searches_tr": 36000,
+      "foreign_platforms": [
+        "IKEA Online",
+        "AliExpress",
+        "Amazon DE"
+      ],
+      "avg_price_usd": 55,
+      "avg_price_try": 2145,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Minimalist Japon estetik iç mekan tasarımı giderek yaygınlaşıyor; ürün çeşidi TR'de sınırlı."
+    },
+    {
+      "product_name": "Akustik Panel Seti (Ev Stüdyosu)",
+      "subcategory": "Ofis & Masa",
+      "demand_score": 70,
+      "local_supply_score": 28,
+      "supply_gap": 42,
+      "import_score": 65,
+      "monthly_searches_tr": 24000,
+      "foreign_platforms": [
+        "Amazon US",
+        "AliExpress",
+        "Etsy"
+      ],
+      "avg_price_usd": 48,
+      "avg_price_try": 1870,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Podcast ve home studio talebi artıyor; estetik akustik panel TR'de hem pahalı hem az."
+    },
+    {
+      "product_name": "Ergonomik Oturma Yastığı (Silikon Jel)",
+      "subcategory": "Ofis & Masa",
+      "demand_score": 72,
+      "local_supply_score": 38,
+      "supply_gap": 34,
+      "import_score": 62,
+      "monthly_searches_tr": 30000,
+      "foreign_platforms": [
+        "Amazon US",
+        "AliExpress",
+        "Xiaomi Store"
+      ],
+      "avg_price_usd": 30,
+      "avg_price_try": 1170,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Uzaktan çalışma kültürü ile ergonomik aksesuara talep kalıcı; jel yastık TR'de az."
+    }
+  ],
+  "kozmetik": [
+    {
+      "product_name": "Korean Glass Skin Protokol Seti",
+      "subcategory": "Yüz Bakımı",
+      "demand_score": 93,
+      "local_supply_score": 38,
+      "supply_gap": 55,
+      "import_score": 88,
+      "monthly_searches_tr": 85000,
+      "foreign_platforms": [
+        "Yesstyle",
+        "Amazon US",
+        "Olive Young"
+      ],
+      "avg_price_usd": 65,
+      "avg_price_try": 2530,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "K-beauty rutini Türkiye'deki en hızlı büyüyen kozmetik segmenti; tam set büyük avantaj."
+    },
+    {
+      "product_name": "Japon Güneş Kremi (SPF 50+ PA++++)",
+      "subcategory": "Güneş Koruma",
+      "demand_score": 88,
+      "local_supply_score": 28,
+      "supply_gap": 60,
+      "import_score": 84,
+      "monthly_searches_tr": 72000,
+      "foreign_platforms": [
+        "Yesstyle",
+        "Amazon US",
+        "Anessa Official"
+      ],
+      "avg_price_usd": 18,
+      "avg_price_try": 700,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Anessa, Biore UV — Türkiye'de bulunmuyor. TikTok'ta milyonlarca görüntüleme aldı."
+    },
+    {
+      "product_name": "Press-On Nail Set (Salon Kalitesi)",
+      "subcategory": "Makyaj & Tırnak",
+      "demand_score": 86,
+      "local_supply_score": 32,
+      "supply_gap": 54,
+      "import_score": 81,
+      "monthly_searches_tr": 68000,
+      "foreign_platforms": [
+        "Amazon US",
+        "SHEIN",
+        "AliExpress"
+      ],
+      "avg_price_usd": 14,
+      "avg_price_try": 545,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "DIY manikür trendi patlama yaptı; kaliteli press-on nail Türkiye'de bulmak zor."
+    },
+    {
+      "product_name": "Gua Sha + Buz Rulosu Seti",
+      "subcategory": "Yüz Masaj",
+      "demand_score": 84,
+      "local_supply_score": 42,
+      "supply_gap": 42,
+      "import_score": 75,
+      "monthly_searches_tr": 58000,
+      "foreign_platforms": [
+        "Amazon US",
+        "AliExpress",
+        "Etsy"
+      ],
+      "avg_price_usd": 20,
+      "avg_price_try": 780,
+      "trend_direction": "rising",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Wellness ve doğal cilt bakımı trendi; sertifikalı taş gua sha setlere talep yüksek."
+    },
+    {
+      "product_name": "RF/EMS Yüz Germe Cihazı",
+      "subcategory": "Anti-Aging Teknoloji",
+      "demand_score": 80,
+      "local_supply_score": 30,
+      "supply_gap": 50,
+      "import_score": 76,
+      "monthly_searches_tr": 45000,
+      "foreign_platforms": [
+        "Amazon US",
+        "AliExpress",
+        "Nuface"
+      ],
+      "avg_price_usd": 85,
+      "avg_price_try": 3315,
+      "trend_direction": "rising",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Ev tipi anti-aging cihaz pazarı global olarak patlıyor; Türkiye'deki yetkili kanal minimal."
+    },
+    {
+      "product_name": "Skin Flooding Nemlendirici Seti",
+      "subcategory": "Yüz Bakımı",
+      "demand_score": 78,
+      "local_supply_score": 45,
+      "supply_gap": 33,
+      "import_score": 66,
+      "monthly_searches_tr": 42000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Yesstyle",
+        "COSRX Official"
+      ],
+      "avg_price_usd": 38,
+      "avg_price_try": 1480,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "TikTok'tan çıkan skin flooding rutini Türk tüketicisinde hızla benimseniyor."
+    },
+    {
+      "product_name": "Slugging Petrolatum Bariyer Krem",
+      "subcategory": "Yüz Bakımı",
+      "demand_score": 72,
+      "local_supply_score": 20,
+      "supply_gap": 52,
+      "import_score": 68,
+      "monthly_searches_tr": 28000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Yesstyle",
+        "iHerb"
+      ],
+      "avg_price_usd": 16,
+      "avg_price_try": 625,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Slugging rutini TikTok'ta viral; petrolatum bariyer krem TR'de bu isimle satılmıyor."
+    },
+    {
+      "product_name": "Scalp Care Saç Derisi Seti",
+      "subcategory": "Saç Bakımı",
+      "demand_score": 74,
+      "local_supply_score": 30,
+      "supply_gap": 44,
+      "import_score": 67,
+      "monthly_searches_tr": 32000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Yesstyle",
+        "AliExpress"
+      ],
+      "avg_price_usd": 42,
+      "avg_price_try": 1640,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Saç derisi sağlığı trendi güç kazanıyor; özel scalp scrub ve serum seti TR'de nadir."
+    },
+    {
+      "product_name": "Mineral SPF Vücut Losyonu",
+      "subcategory": "Güneş Koruma",
+      "demand_score": 68,
+      "local_supply_score": 35,
+      "supply_gap": 33,
+      "import_score": 60,
+      "monthly_searches_tr": 22000,
+      "foreign_platforms": [
+        "Amazon US",
+        "iHerb",
+        "Yesstyle"
+      ],
+      "avg_price_usd": 28,
+      "avg_price_try": 1090,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Mineral filtreli vücut güneş kremi clean beauty segmentinde yükseliyor; TR'de az çeşit."
+    }
+  ],
+  "spor": [
+    {
+      "product_name": "Foam Roller + Recovery Set",
+      "subcategory": "Fitness & Gym",
+      "demand_score": 88,
+      "local_supply_score": 32,
+      "supply_gap": 56,
+      "import_score": 83,
+      "monthly_searches_tr": 62000,
+      "foreign_platforms": [
+        "Amazon US",
+        "TRX Store",
+        "AliExpress"
+      ],
+      "avg_price_usd": 45,
+      "avg_price_try": 1750,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "CrossFit ve gym kültürü büyüdükçe recovery araçlarına talep artıyor; kaliteli set Türkiye'de az."
+    },
+    {
+      "product_name": "Resistance Band Seti Pro",
+      "subcategory": "Fitness & Gym",
+      "demand_score": 84,
+      "local_supply_score": 45,
+      "supply_gap": 39,
+      "import_score": 74,
+      "monthly_searches_tr": 55000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Rogue Fitness",
+        "AliExpress"
+      ],
+      "avg_price_usd": 28,
+      "avg_price_try": 1090,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Ev egzersizi trendi kalıcılaştı; dayanıklı lastik bant setleri TikTok'ta çok aranıyor."
+    },
+    {
+      "product_name": "Adjustable Kettlebell (2–32 kg)",
+      "subcategory": "Fitness & Gym",
+      "demand_score": 80,
+      "local_supply_score": 28,
+      "supply_gap": 52,
+      "import_score": 78,
+      "monthly_searches_tr": 38000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Kettlebell Kings",
+        "AliExpress"
+      ],
+      "avg_price_usd": 120,
+      "avg_price_try": 4680,
+      "trend_direction": "rising",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Ayarlanabilir kettlebell Türkiye'de neredeyse yok; ev gym kurgulayan segment için büyük fırsat."
+    },
+    {
+      "product_name": "Kamp Hamağı + Yağmurluğu Set",
+      "subcategory": "Outdoor & Kamp",
+      "demand_score": 75,
+      "local_supply_score": 30,
+      "supply_gap": 45,
+      "import_score": 70,
+      "monthly_searches_tr": 32000,
+      "foreign_platforms": [
+        "Amazon US",
+        "ENO",
+        "AliExpress"
+      ],
+      "avg_price_usd": 55,
+      "avg_price_try": 2145,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Glamping ve kamp turizmi artıyor; kaliteli hammock seti Türkiye'de az."
+    },
+    {
+      "product_name": "Grip Strengthener Pro Set",
+      "subcategory": "Fitness & Gym",
+      "demand_score": 68,
+      "local_supply_score": 35,
+      "supply_gap": 33,
+      "import_score": 60,
+      "monthly_searches_tr": 24000,
+      "foreign_platforms": [
+        "Amazon US",
+        "AliExpress"
+      ],
+      "avg_price_usd": 22,
+      "avg_price_try": 860,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Calisthenics ve jimnastik kitlesi hız kazanıyor; el kuvveti ekipmanı arzı yetersiz."
+    },
+    {
+      "product_name": "Çok Katlı Kamp Tenceresi Seti",
+      "subcategory": "Outdoor & Kamp",
+      "demand_score": 62,
+      "local_supply_score": 40,
+      "supply_gap": 22,
+      "import_score": 52,
+      "monthly_searches_tr": 18000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Sea to Summit",
+        "AliExpress"
+      ],
+      "avg_price_usd": 38,
+      "avg_price_try": 1480,
+      "trend_direction": "stable",
+      "opportunity_label": "Takipte",
+      "insight": "Hafif ve katlanabilir kamp mutfağı Türk kampçılar arasında yavaş benimseniliyor."
+    },
+    {
+      "product_name": "GPS Spor Saati (Multisport)",
+      "subcategory": "Koşu & Kardiyo",
+      "demand_score": 84,
+      "local_supply_score": 42,
+      "supply_gap": 42,
+      "import_score": 76,
+      "monthly_searches_tr": 55000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Garmin Store",
+        "Amazon DE"
+      ],
+      "avg_price_usd": 180,
+      "avg_price_try": 7020,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Triathlon ve multisport segmenti büyüyor; yetkili Garmin/Suunto dağıtımı TR'de yetersiz."
+    },
+    {
+      "product_name": "Vibrasyon Masaj Tabancası Pro",
+      "subcategory": "Fitness & Gym",
+      "demand_score": 86,
+      "local_supply_score": 44,
+      "supply_gap": 42,
+      "import_score": 77,
+      "monthly_searches_tr": 58000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Theragun",
+        "AliExpress"
+      ],
+      "avg_price_usd": 75,
+      "avg_price_try": 2925,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Profesyonel recovery cihazı trendi sporculara yayıldı; orijinal marka TR'de az bulunur."
+    },
+    {
+      "product_name": "Trailrunning Ayakkabısı (Karbon Tabanlı)",
+      "subcategory": "Koşu & Kardiyo",
+      "demand_score": 72,
+      "local_supply_score": 28,
+      "supply_gap": 44,
+      "import_score": 68,
+      "monthly_searches_tr": 30000,
+      "foreign_platforms": [
+        "Amazon DE",
+        "Salomon Store",
+        "AliExpress"
+      ],
+      "avg_price_usd": 130,
+      "avg_price_try": 5070,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Dağ koşusu sporu büyüyor; karbon tabanlı trail ayakkabı TR distribütörlerinde kısıtlı."
+    }
+  ],
+  "gida": [
+    {
+      "product_name": "Ceremonial Grade Matcha Seti",
+      "subcategory": "Çay & İçecek",
+      "demand_score": 90,
+      "local_supply_score": 22,
+      "supply_gap": 68,
+      "import_score": 86,
+      "monthly_searches_tr": 75000,
+      "foreign_platforms": [
+        "Amazon JP",
+        "Ippodo",
+        "Amazon US"
+      ],
+      "avg_price_usd": 35,
+      "avg_price_try": 1365,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Matcha latte ve koyu yeşil çay trendi TikTok'ta viral; seremoniel kalite Türkiye'de yok denecek kadar az."
+    },
+    {
+      "product_name": "Collagen Peptide Tozu (Grass-Fed)",
+      "subcategory": "Sağlıklı Gıda",
+      "demand_score": 86,
+      "local_supply_score": 30,
+      "supply_gap": 56,
+      "import_score": 81,
+      "monthly_searches_tr": 65000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Vital Proteins",
+        "iHerb"
+      ],
+      "avg_price_usd": 42,
+      "avg_price_try": 1640,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Collagen supplement trendi güçleniyor; onaylı grass-fed kollajen Türkiye'de ithalat zorluğuyla kısıtlı."
+    },
+    {
+      "product_name": "Adaptogen Mushroom Karışımı",
+      "subcategory": "Sağlıklı Gıda",
+      "demand_score": 82,
+      "local_supply_score": 15,
+      "supply_gap": 67,
+      "import_score": 84,
+      "monthly_searches_tr": 52000,
+      "foreign_platforms": [
+        "iHerb",
+        "Amazon US",
+        "Four Sigmatic"
+      ],
+      "avg_price_usd": 38,
+      "avg_price_try": 1480,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Lion's mane, chaga gibi mantar adaptogenler biohacking topluluğunda patlıyor; TR'de çok az kaynak."
+    },
+    {
+      "product_name": "Manuka Honey UMF 10+ (NZ)",
+      "subcategory": "Doğal & Organik",
+      "demand_score": 78,
+      "local_supply_score": 20,
+      "supply_gap": 58,
+      "import_score": 74,
+      "monthly_searches_tr": 38000,
+      "foreign_platforms": [
+        "Amazon NZ",
+        "Amazon US",
+        "Comvita"
+      ],
+      "avg_price_usd": 55,
+      "avg_price_try": 2145,
+      "trend_direction": "rising",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Orijinal Yeni Zelanda Manuka balı Türkiye'de büyük talep görüyor; sahte ürün kaygısı kaliteli distribütöre pazar açıyor."
+    },
+    {
+      "product_name": "MCT Oil Powder (Ketojenik)",
+      "subcategory": "Sağlıklı Gıda",
+      "demand_score": 75,
+      "local_supply_score": 35,
+      "supply_gap": 40,
+      "import_score": 65,
+      "monthly_searches_tr": 32000,
+      "foreign_platforms": [
+        "iHerb",
+        "Amazon US",
+        "Perfect Keto"
+      ],
+      "avg_price_usd": 30,
+      "avg_price_try": 1170,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Keto ve ketojenik diyet Türkiye'de yavaş ama istikrarlı büyüyor; MCT tozu kaliteli kaynaklarda az."
+    },
+    {
+      "product_name": "Electrolyte Tablet Paketi",
+      "subcategory": "Spor Beslenmesi",
+      "demand_score": 70,
+      "local_supply_score": 42,
+      "supply_gap": 28,
+      "import_score": 58,
+      "monthly_searches_tr": 28000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Nuun",
+        "AliExpress"
+      ],
+      "avg_price_usd": 18,
+      "avg_price_try": 700,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Koşu ve endurance sporu kitlesinde elektrolit takviyesi benimseniyor; tatlandırıcısız formül az."
+    },
+    {
+      "product_name": "Freeze-Dried Meyve Atıştırmalık Seti",
+      "subcategory": "Organik & Doğal",
+      "demand_score": 76,
+      "local_supply_score": 20,
+      "supply_gap": 56,
+      "import_score": 72,
+      "monthly_searches_tr": 35000,
+      "foreign_platforms": [
+        "Amazon US",
+        "iHerb",
+        "AliExpress"
+      ],
+      "avg_price_usd": 28,
+      "avg_price_try": 1090,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Sağlıklı atıştırmalık trendi; dondurarak kurutulmuş meyve TR'de çok az üretici ve ithalatçı var."
+    },
+    {
+      "product_name": "Mushroom Coffee Karışımı (Lion's Mane)",
+      "subcategory": "Kahve & Çay",
+      "demand_score": 74,
+      "local_supply_score": 12,
+      "supply_gap": 62,
+      "import_score": 74,
+      "monthly_searches_tr": 28000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Four Sigmatic",
+        "iHerb"
+      ],
+      "avg_price_usd": 32,
+      "avg_price_try": 1250,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Biohacking ve nootropics trendi; mantar kahve karışımı TR'de neredeyse hiç distribütör yok."
+    },
+    {
+      "product_name": "Kimchi & Fermente Gıda Başlangıç Seti",
+      "subcategory": "Organik & Doğal",
+      "demand_score": 66,
+      "local_supply_score": 18,
+      "supply_gap": 48,
+      "import_score": 63,
+      "monthly_searches_tr": 22000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Etsy",
+        "AliExpress"
+      ],
+      "avg_price_usd": 35,
+      "avg_price_try": 1365,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "K-food ve fermantasyon trendi Türkiye'ye ulaştı; ev yapımı kimchi seti ve malzemeleri az."
+    }
+  ],
+  "oyuncak": [
+    {
+      "product_name": "Magnetic Tiles XL Set (100+ parça)",
+      "subcategory": "Eğitici & STEM",
+      "demand_score": 89,
+      "local_supply_score": 28,
+      "supply_gap": 61,
+      "import_score": 84,
+      "monthly_searches_tr": 68000,
+      "foreign_platforms": [
+        "Amazon US",
+        "AliExpress",
+        "Connetix"
+      ],
+      "avg_price_usd": 65,
+      "avg_price_try": 2535,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "STEM oyuncak trendi ebeveynler arasında güçleniyor; büyük setler Türkiye'de kaliteli marka ile az."
+    },
+    {
+      "product_name": "Stop Motion Animasyon Kiti",
+      "subcategory": "Hobi & Yaratıcı",
+      "demand_score": 82,
+      "local_supply_score": 14,
+      "supply_gap": 68,
+      "import_score": 81,
+      "monthly_searches_tr": 42000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Etsy",
+        "AliExpress"
+      ],
+      "avg_price_usd": 48,
+      "avg_price_try": 1870,
+      "trend_direction": "rising_fast",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Çocuk içerik üreticiliği ve animasyon hobisi TikTok'la büyüdü; ekipman Türkiye'de yok."
+    },
+    {
+      "product_name": "LEGO Special Edition Set (Technic/Creator)",
+      "subcategory": "LEGO & Yapboz",
+      "demand_score": 88,
+      "local_supply_score": 40,
+      "supply_gap": 48,
+      "import_score": 79,
+      "monthly_searches_tr": 82000,
+      "foreign_platforms": [
+        "Amazon DE",
+        "LEGO Store",
+        "Amazon UK"
+      ],
+      "avg_price_usd": 120,
+      "avg_price_try": 4680,
+      "trend_direction": "rising",
+      "opportunity_label": "Yüksek Fırsat",
+      "insight": "Özel ve lüks LEGO setleri Türkiye'de kısa sürede tükeniyor; stok arbitrajı fırsatı büyük."
+    },
+    {
+      "product_name": "Sensory Play & Montessori Seti",
+      "subcategory": "Eğitici & Bebek",
+      "demand_score": 80,
+      "local_supply_score": 32,
+      "supply_gap": 48,
+      "import_score": 72,
+      "monthly_searches_tr": 45000,
+      "foreign_platforms": [
+        "Amazon US",
+        "Etsy",
+        "AliExpress"
+      ],
+      "avg_price_usd": 40,
+      "avg_price_try": 1560,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Montessori ve duyusal oyun bilinci artıyor; ahşap ve doğal malzemeli set arzı yetersiz."
+    },
+    {
+      "product_name": "RC Drone Starter (Fotoğraf Çekimli)",
+      "subcategory": "RC & Teknoloji",
+      "demand_score": 76,
+      "local_supply_score": 38,
+      "supply_gap": 38,
+      "import_score": 65,
+      "monthly_searches_tr": 36000,
+      "foreign_platforms": [
+        "Amazon US",
+        "DJI Mini",
+        "AliExpress"
+      ],
+      "avg_price_usd": 95,
+      "avg_price_try": 3705,
+      "trend_direction": "rising",
+      "opportunity_label": "Orta Fırsat",
+      "insight": "Giriş seviyesi fotoğraf dronları Türkiye'de popülerleşiyor; orta segment büyük boşluk."
+    },
+    {
+      "product_name": "Professional Slime Kit (Chemistry Set)",
+      "subcategory": "Hobi & Deneyler",
+      "demand_score": 72,
+      "local_supply_score": 50,
+      "supply_gap": 22,
+      "import_score": 58,
+      "monthly_searches_tr": 28000,
+      "foreign_platforms": [
+        "Amazon US",
+        "AliExpress",
+        "Etsy"
+      ],
+      "avg_price_usd": 22,
+      "avg_price_try": 860,
+      "trend_direction": "stable",
+      "opportunity_label": "Takipte",
+      "insight": "Kimya seti ve slime hobisi Türk çocukları arasında popüler; profesyonel set henüz az."
+    }
+  ]
+}
